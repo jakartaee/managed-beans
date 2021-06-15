@@ -1,0 +1,3 @@
+= Jakarta Managed Beans
+
+The Jakarta Managed Beans repository produces the Jakarta Managed Beans Specification, which is one of the specifications managed by the Jakarta EE Platform project.
