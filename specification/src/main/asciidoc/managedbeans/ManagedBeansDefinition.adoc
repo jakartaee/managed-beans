@@ -12,7 +12,7 @@ functionality.
 
 For example, in the basic component model,
 Managed Beans must provide a no-argument constructor, but a
-specification that builds on Managed Beans, such as CDI (JSR-299), can
+specification that builds on Managed Beans, such as Jakarta Contexts and Dependency Injection (Jakarta CDI), can
 relax that requirement and allow Managed Beans to provide constructors
 with more complex signatures, as long as they follow some well-defined
 rules. Similarly, in the basic model, a Managed Bean component must be
@@ -49,7 +49,7 @@ the _ManagedBean_ annotation.
 [source, java]
 ----
  @ManagedBean(“cart“)
- public class ShoppingCart \{ ... }
+ public class ShoppingCart { ... }
 ----
 
 Managed Bean names must be unique within a Jakarta
